@@ -190,15 +190,6 @@ li{list-style:none}
      font-size: 15px;
    }
 
-   #canvasContainer {
-       min-height: 100%;
-       position: relative;
-       background: rgba(68, 100, 145, 0.65);
-       height: 600px;
-       z-index: 1;
-
-   }
-
 
    canvas {
        /*display: none;*/
@@ -273,7 +264,27 @@ li{list-style:none}
      height: 500px;
      z-index: 100 !important;
       background-color: rgba(68, 100, 145, 0.65);
+      /*margin-top: 10px;*/
+      /*display: flex;*/
    }
+
+
+
+  .portfolio {
+    display: none;
+  }
+
+   .project{
+     height: 200px;
+     width: 200px;
+     z-index: 101 !important;
+     background-color: rgba(204, 212, 223, 0.8);
+     margin: 5%;
+
+   }
+
+   a{
+ align-self: auto   }
 
 
    @media screen and (max-height: 680px) {
@@ -317,6 +328,30 @@ canvas{
 	height:inherit;
 }
 
+#canvasContainer{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.canvasContentContainer {
+  margin: auto;
+
+}
+
+.intro{
+  width: 400px;
+  height: 200px;
+  margin: 10% 50%;
+
+}
+
+.headshot{
+  width: 400px;
+  height: 200px;
+  margin: 10% 10%;
+
+}
 
 
 

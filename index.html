@@ -17,7 +17,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" href="css/style.css">
+  <!-- <link rel="stylesheet" media="screen" href="css/style.css"> -->
   <link rel="stylesheet" media="screen" href="css/michelle.css">
 </head>
 <body>
@@ -43,66 +43,90 @@
 </div> -->
 
 <!-- particles.js container -->
-<div id="canvasContainer">
-  <div id="particles-js">
 
-  <div class="canvasContentContainer">
-    <div class="container">
-
-      <!-- <img id="logo" src="./images/logo-me.gif"/> -->
-      <div id="topContent" class="img-rounded">
-        Hi, my name is Michelle Erica Lo
-        <a href="#">TEST</a>
-      </div>
-    </div>
-    </div>
+<!-- MAIN CONTENTS -->
+<div class="container main_container" id='home'>
+  <!-- CONTAINER -->
+  <div>
+      <img id="headshot" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
   </div>
+  <div class="contents" id="about_me">
+    Hi, my name is <a href="">Michelle Erica Lo</a>.
+    <br>
+    I'm an <a href="#">avid list maker</a>, <a href="#">question asker</a> and <a href="#">intermittent foodie</a>.
+  </div>
+
+</div>
+
+<!--ABOUT ME  -->
+<div class="container main_container" id="about_long">
+  CONTAINER
+  <div class="contents">
+    I’m not your average career-changer. Or maybe I’m as basic as they come.
+<br>
+I’m a junior web developer with almost 6 years experience working at a top international accounting firm in risk management.
+<br>
+During this time I learnt a lot of things. I learnt how to work in a team. I learnt how to work in a stressful environment to competing deadlines. I learnt how to manage my time and the time of other team members. But most importantly, I learnt that what I really wanted to do was to help other people.
+<br>
+
+Although I’m new to the tech world, I have the enthusiasm and curiosity of a newly converted cult member. Let me join your team.
+  </div>
+
+</div>
+<!--PROJECTS ME  -->
+<div class="container main_container" id="projects">
+  Projects
+<div id="projectzero">
+  <div>
+      <img class="screencap" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
+  </div>
+  <div class="contents" id="about_me">
+    Hi, my name is Michelle Erica Lo.
+    <br>
+    I'm an <a href="#">avid list maker</a>, <a href="#">question asker</a> and <a href="#">intermittent foodie</a>.
+  </div>
+
+</div>
+<div id="projectone">
+  <div>
+      <img class="screencap" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
+  </div>
+  <div class="contents" id="about_me">
+    Hi, my name is Michelle Erica Lo.
+    <br>
+    I'm an <a href="#">avid list maker</a>, <a href="#">question asker</a> and <a href="#">intermittent foodie</a>.
+  </div>
+
 </div>
 </div>
 
-<!-- <div class="container"> -->
-<!--
-  <div class="row">
-
+<div id="projecttwo">
+  <div>
+      <img class="screencap" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
   </div>
-  <div class="main">
-    Hi, my name is Michelle Erica Lo
-    <div class="content left">
-gfdgd
-    </div>
-    <div class="content right">
-fgd
-    </div>
+  <div class="contents" id="about_me">
+    Hi, my name is Michelle Erica Lo.
+    <br>
+    I'm an <a href="#">avid list maker</a>, <a href="#">question asker</a> and <a href="#">intermittent foodie</a>.
   </div>
 
-</div> -->
+</div>
 
+<div id="projectthree">
+  <div>
+      <img class="screencap" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
+  </div>
+  <div class="contents" id="about_me">
+    Hi, my name is Michelle Erica Lo.
+    <br>
+    I'm an <a href="#">avid list maker</a>, <a href="#">question asker</a> and <a href="#">intermittent foodie</a>.
+  </div>
 
-<!-- scripts -->
+</div>
+
 <script src="js/particles.min.js"></script>
 <script src="js/app.js"></script>
 
-<!-- stats.js -->
-<!-- <script src="js/lib/stats.js"></script>
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script> -->
 
 </body>
 </html>
