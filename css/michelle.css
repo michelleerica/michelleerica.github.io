@@ -19,7 +19,7 @@ body{
   display: flex;
   height: 300px;
   /*width: 100%;*/
-  margin: 5% auto;
+  margin: 2% auto;
   align-content: flex-end;
   justify-content: center;
 }
@@ -34,8 +34,8 @@ body{
 }
 
 #headshot{
-
-  width: 200px;
+  width: 100%;
+  /*width: 200px;*/
   text-align: right;
 }
 
@@ -44,13 +44,31 @@ body{
   width: 35%
 }
 
+
+#projects{
+  display: flex;
+  /*width: 80%*/
+}
+
+
+.brief, .screenshot{
+  /*padding: 30px;*/
+  /*width: 60%;*/
+  /*margin: auto;*/
+
+}
+
 img{
-  width: 100%;
   border-radius: 5em 4em 8em 14em / 2em 20em 8em 10em;
     -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
     -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
   position:relative;
 };
+
+.screenshot{
+  /*width: 50px !important;*/
+  text-align: right;
+}
 
 #home{
 
@@ -58,10 +76,10 @@ img{
 
 #about_long{
   /*display: none;*/
-  width: 100
+  width: 80%
 
 }
 
 #projects{
-  /*display: none;*/
+  display:block;
 }
