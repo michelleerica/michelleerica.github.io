@@ -1,5 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 /*.container {
   display: flex;
@@ -10,7 +15,7 @@ body{
 }
 
  body, a, .navbar{
-   font-family: 'Amatic SC', cursive;
+   font-family: 'Slabo 27px', serif;
    font-size: 30px;
  }
 
@@ -26,7 +31,7 @@ body{
 
 .home {
   /*padding: 5%;*/
-  width: 300px;  /* Or whatever */
+  width: 250px;  /* Or whatever */
   height: 300px; /* Or whatever */
   /*margin: auto;  /* Magic! */*/
   background-color: blue;
@@ -44,7 +49,7 @@ body{
 }
 
 #about_me{
-  padding: 30px;
+  padding: 40px;
   width: 35%
 }
 
