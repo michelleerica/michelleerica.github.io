@@ -37,6 +37,10 @@ body{
   width: 100%;
   /*width: 200px;*/
   text-align: right;
+  border-radius: 5em 4em 8em 14em / 2em 20em 8em 10em;
+    -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  position:relative;
 }
 
 #about_me{
@@ -58,12 +62,12 @@ body{
 
 }
 
-img{
+/*img{
   border-radius: 5em 4em 8em 14em / 2em 20em 8em 10em;
     -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
     -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
   position:relative;
-};
+};*/
 
 .screenshot{
   /*width: 50px !important;*/
