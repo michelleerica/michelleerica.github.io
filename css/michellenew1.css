@@ -141,3 +141,16 @@ h1, h2, h3{
   font-family: 'League Script', cursive;
   font-weight:bolder;
 }
+
+.base{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  /*background-color: rgba(48, 47, 92, 0.88);*/
+  text-align: right;
+  color: rgb(151, 187, 228);
+  font-size: 40px;
+
+}
