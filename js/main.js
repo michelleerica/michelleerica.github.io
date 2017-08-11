@@ -1,6 +1,26 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage();
 
+	// var quoteChange = function(){
+	// 	$('#home-info').css("display","none");
+	// 	$('#funny').css("display","block");
+	//
+	// }
+	//
+	// function myFunction() {
+	//     setInterval(function(){ alert("Hello"); }, 3000);
+	// }
+	setInterval(function(){
+		$('#home-info').css("display","none");
+		$('#funny').css("display","block");
+	}, 2000);
+
+	setInterval(function(){
+		$('#funny').css("display","none");
+		$('#home-info').css("display","block");
+	}, 4000);
+
+
 	$('.bujoco-info').click(function(){
     $('.bujoco-modal').modal('show');
   });
@@ -28,4 +48,5 @@ $(document).ready(function() {
   $(".tic-modal").modal({
   closable: true
   });
+
 });
