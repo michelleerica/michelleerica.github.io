@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Pacifico|Comfortaa|Clicker+Script|League+Script');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Pacifico|Comfortaa|Clicker+Script|League+Script|Sacramento');
 
 
 body{
@@ -17,14 +17,15 @@ body{
 .section_two{
 background-color: pink;
 }
-.section_three{
+.section_four{
   background: #43C6AC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
-.section_four{
-  background: #ffd89b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,#ffd89b, #19547b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.section_three{
+  background: #C9FFBF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #headshot{
@@ -39,7 +40,7 @@ background-color: pink;
 }
 
 #home-info, #funny{
-  font-family: 'Clicker Script', cursive;
+  font-family: 'Sacramento', cursive;
   font-size: 40px;
   line-height: 30px;
 }
@@ -52,7 +53,7 @@ background-color: pink;
 .circular-sb {
   width: 600px;
   height: 350px;
-  border: 5px solid #00bfb6;
+  border: 5px solid rgb(144, 38, 207);
   padding: 80px 0px;
   margin: 30px auto;
   border-radius: 50%;
@@ -62,11 +63,11 @@ background-color: pink;
   font-weight: 900;
   font-family: arial;
   position: relative;
-  color: #00bfb6;
+  color: rgb(144, 38, 207);
 }
 
 .circle3 {
-  border: 5px solid #00bfb6;
+  border: 5px solid rgb(144, 38, 207);
   position: absolute;
   width: 25px;
   padding: 20px;
@@ -87,7 +88,7 @@ background-color: pink;
 }
 
 .circle4 {
-  border: 5px solid #00bfb6;
+  border: 5px solid rgb(144, 38, 207);
   position: absolute;
   width: 5px;
   padding: 10px 15px;
@@ -135,6 +136,8 @@ footer {
   background-color: rgba(48, 47, 92, 0.88);
   text-align: center;
   color: white;
+  font-family: 'Comfortaa', cursive;
+
 }
 
 h1, h2, h3{

@@ -10,15 +10,18 @@ $(document).ready(function() {
 	// function myFunction() {
 	//     setInterval(function(){ alert("Hello"); }, 3000);
 	// }
-	setInterval(function(){
-		$('#home-info').css("display","none");
-		$('#funny').css("display","block");
-	}, 2000);
+	// setInterval(function(){
+	// 	$('#home-info').css("display","none");
+	// 	$('#funny').css("display","block");
+	// }, 2000);
 
 	setInterval(function(){
 		$('#funny').css("display","none");
 		$('#home-info').css("display","block");
-	}, 4000);
+	}, 6000, setInterval(function(){
+		$('#home-info').css("display","none");
+		$('#funny').css("display","block");
+	}, 2000));
 
 
 	$('.bujoco-info').click(function(){
