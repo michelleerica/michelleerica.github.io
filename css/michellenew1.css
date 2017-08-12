@@ -121,7 +121,7 @@ background-color: pink;
 }
 
 .contact-info{
-  text-align: center;
+  text-align: left;
 }
 .contact{
   padding: 2em;
@@ -133,9 +133,9 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgba(48, 47, 92, 0.88);
-  text-align: center;
-  color: white;
+  background-color: rgba(151, 149, 249, 0.7);
+  text-align: left;
+  color: rgb(144, 38, 207);
   font-family: 'Comfortaa', cursive;
 
 }
@@ -152,8 +152,13 @@ h1, h2, h3{
   left: 0;
   padding: 1rem;
   /*background-color: rgba(48, 47, 92, 0.88);*/
-  text-align: right;
-  color: rgb(151, 187, 228);
+  text-align: right !important;
+  color: navy;
   font-size: 40px;
+}
 
+.contact-base{
+  text-align: right;
+  font-family: 'Comfortaa', cursive;
+  /*font-size: 20px;*/
 }
