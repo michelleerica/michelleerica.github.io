@@ -13,11 +13,11 @@ $(document).ready(function() {
 	    });
 	}
 	if (document.documentElement.clientWidth < 1024) {
-	    $('#fullpage').fullpage({
+	    // $('#fullpage').fullpage({
 	        // we need to disable scrolling not on desktop version
 	        scrollOverflow: false
 	        // the rest setting can goes below here
-	    });
+	    // });
 
 			// $('#about-long').css("font-size","12px");
 
