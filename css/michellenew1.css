@@ -147,6 +147,15 @@ footer {
 
 }
 
+header{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  font-size: 20px;
+  color: rgba(5, 13, 18, 0.69)
+}
+
 h1, h2, h3{
   font-family: 'League Script', cursive;
   font-weight:bolder;
