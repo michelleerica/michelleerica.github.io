@@ -18,10 +18,10 @@ $(document).ready(function() {
 	setInterval(function(){
 		$('#funny').css("display","none");
 		$('#home-info').css("display","block");
-	}, 6000, setInterval(function(){
+	}, 2000, setInterval(function(){
 		$('#home-info').css("display","none");
 		$('#funny').css("display","block");
-	}, 2000));
+	}, 6000));
 
 
 	$('.bujoco-info').click(function(){
@@ -31,12 +31,13 @@ $(document).ready(function() {
   closable: true
   });
 
-	$('.fraga-info').click(function(){
-    $('.fraga-modal').modal('show');
-  });
-  $(".fraga-modal").modal({
-  closable: true
-  });
+
+		$('.fraga-info').click(function(){
+	    $('.fraga-modal').modal('show');
+	  });
+	  $(".fraga-modal").modal({
+	  closable: true
+	  });
 
 	$('.figgie-info').click(function(){
     $('.figgie-modal').modal('show');

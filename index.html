@@ -29,7 +29,7 @@
 
   <div id="fullpage">
   	<div class="section section_one">
-       <div class="ui grid">
+       <div class="ui stackable grid">
 
         <div class="two wide column">
         </div>
@@ -39,17 +39,18 @@
 
         <div class="twelve wide column about_short">
           <div class="circular-sb">
-            <br>
+            <!-- <br> -->
             <div id="home-info">
-            Hi, my name is <a href="">Michelle Erica Lo</a>.
+            Hi, my name is <a href="#about-long">Michelle Erica Lo</a>.
             <br>
             <br>
             I'm a junior web developer.
             <br>
             <br>
-            I'm an <a href="#">avid list maker</a>, <a href="#">question asker</a> and <a href="#">intermittent foodie</a>.
+            I'm an <a href="#projects1">avid list maker</a>, <a href="#projects1">question asker</a> and <a href="#projects2">intermittent foodie</a>.
             </div>
             <div id="funny">
+              <br>
               <br>
               And sometimes I'm funny.
             </div>
@@ -64,14 +65,14 @@
       </div>
     </div>
   	<div class="section section_two" id="about-me">
-      <div class="ui grid">
+      <div class="ui stackable grid">
         <div class="one wide column"></div>
 
       <div class="four wide column">
           <img id="headshot" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
 
       </div>
-      <div class="one wide column"></div>
+      <div class="one wide column" id="about-long"></div>
 
       <div class="eight wide column">
 
@@ -87,7 +88,7 @@
     <br>
     <br>
     <div class="contact-info">
-      <a href="http://res.cloudinary.com/michelleerica/image/upload/v1502536348/michelle_resume.pdf" download="michelleericalo resume">Resume</a>
+      <a href="http://res.cloudinary.com/michelleerica/image/upload/v1502536348/michelle_resume.pdf" download="michelleericalo resume" class="contact">Resume</a>
       <a href="https://github.com/michelleerica" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact"><i class="devicon-github-plain-wordmark colored"></i>
     </a>
       <a href="https://www.linkedin.com/in/michelleerica-lo/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact"><i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -101,8 +102,8 @@
       <i class="fa fa-hand-o-down" aria-hidden="true"></i>
     </div>
   	</div>
-  	<div class="section section_three" id="projects">
-      <div class="ui grid">
+  	<div class="section section_three" id="projects1">
+      <div class="ui stackable grid">
 
       <div class="three wide column"></div>
       <div class="four wide column">
@@ -115,11 +116,12 @@
       <h2>The Bullet Journal Collective</h2>
       <p>This Bullet Journal wireframing project, allows those new to bullet journalling to get inspired by other bullet journallers and wireframe their templates before committing it to paper. The purpose of the site is to use tech to take the frustration out of analog bullet journalling.</p>
       <br>
-      <p>FabricJS / <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
+      <p>With s<i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
    <i class="devicon-javascript-plain"></i>
-    <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i>
-    cloudinary / <i class="devicon-bootstrap-plain-wordmark"></i>
+    <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-bootstrap-plain-wordmark"></i>
   </p>
+  <p> FabricJS | cloudinary </p>
+
   <div class="four wide column">
                 <h3 class="bujoco-info">more info</h3>
                   <div class="ui modal bujoco-modal">
@@ -145,7 +147,63 @@
 
   	</div>
       <div class="three wide column"></div>
-      <div class="four wide column">
+
+
+<div class="four wide column">
+    <a href="https://fraga-app.herokuapp.com" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/v1502328961/fraga_hnt7qa.png" alt="bujoco" class="screenshot"></a>
+
+</div>
+<div class="one wide column"></div>
+
+<div class="six wide column">
+<h2>fråga (ask)</h2>
+<p>
+  Think StackExchange, Quora or Yahoo Answers but with a location-specific spin to it.
+</p>
+<p>
+Location-based Q&A web applications whereby users can ask other users location specific questions. Translation services available for non-English speaking users.
+</p>
+<br>
+<p>With<i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
+<i class="devicon-javascript-plain"></i>
+<i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-bootstrap-plain-wordmark"></i>
+</p>
+<p> FabricJS | cloudinary </p>
+
+<div class="four wide column">
+          <h3 class="fraga-info">more info</h3>
+            <div class="ui modal fraga-modal">
+            <i class="close icon"></i>
+            <div class="header">
+              More info
+            </div>
+            <div class="image content">
+              <div class="ui image">
+              </div>
+              <div class="description">
+                <h3>The brief</h3>
+                <p>In a group, build a web application in ruby on rails using at least 3 models and RESTful routes, utilising APIs, ruby gems and ajax</p>
+
+                <h3>The idea</h3>
+              <p>Think StackExchange, Quora or Yahoo Answers but with a location-specific spin to it.</p>
+              </p>Location-based Q&A web application whereby users can ask other users location specific questions. The app is aimed at connecting the curious with the knowledgeable within a particular geographical area, with language translating available for non-english speakers. </p>
+                <h3>Debrief</h3>
+                <p>
+                  Fraga was a great opportunity to work as part of a team with developers with different strengths and skills to my own. As a result, I gained a lot of insight into how other people work and think through problems, and how to deal with merge conflicts in git!</p>
+
+                <p><a href="https://github.com/aparkinbotswana/Fraga" target="_blank">github</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</div>
+
+
+
+
+
+      <!-- <div class="four wide column">
           <a href="https://fraga-app.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/v1502328961/fraga_hnt7qa.png" alt="fraga" class="screenshot"></a>
 
       </div>
@@ -155,13 +213,23 @@
       <h2>fraga (ask)</h2>
       <p>Think StackExchange, Quora or Yahoo Answers but with a location-specific spin to it.</p>
       </p>Location-based Q&A web application whereby users can ask other users location specific questions. The app is aimed at connecting the curious with the knowledgeable within a particular geographical area, with language translating available for non-english speakers. </p>
-      <p><i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>  <i class="devicon-javascript-plain"></i>
-   <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i>
-   / semantic ui / Google Maps api / yandex translate api / geocoder
-  </p>
-  <div class="four wide column">
-                <h3 class="fraga-info">more info</h3>
-                  <div class="ui modal fraga-modal">
+      <p>With <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>  <i class="devicon-javascript-plain"></i>
+   <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i></p>
+   <p>
+    semantic ui | Google Maps api | yandex translate api | geocoder
+  </p> -->
+
+
+
+
+
+
+
+
+
+  <!-- <div class="four wide column">
+                <h3 class="figgie-info">more info</h3>
+                  <div class="ui modal figgie-modal">
                   <i class="close icon"></i>
                   <div class="header">
                     More info
@@ -187,9 +255,9 @@
 
 
 
-              </div>
+              </div> -->
 
-  	</div>
+  	<!-- </div> -->
 
     <div class="two wide column"></div>
 
@@ -199,8 +267,8 @@
     </div>
   	</div>
 
-  	<div class="section section_four">
-      <div class="ui grid">
+  	<div class="section section_four" id="projects2">
+      <div class="ui stackable grid">
 
       <div class="three wide column"></div>
       <div class="four wide column">
@@ -215,10 +283,11 @@
 
   I wanted to make a pure food photo sharing app. One where users could post photos of their meals and sort on dishes, venues and cuisines for maximum flexibility </p>
       <br>
-      <p><i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
+      <p>With <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
     <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i>
-  / cloudinary / materialize.css
       </p>
+      <p> Materialize CSS | cloudinary </p>
+
       <div class="four wide column">
                 <h3 class="figgie-info">more info</h3>
                   <div class="ui modal figgie-modal">
@@ -258,7 +327,7 @@
       <div class="six wide column">
       <h2>Tic Tac Toe</h2>
       <p>Play tic tac toe in two player mode or against Bill Murray, maybe the less effective AI player in the world...</p>
-      <p><i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>  <i class="devicon-javascript-plain"></i>
+      <p> With <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>  <i class="devicon-javascript-plain"></i>
     <i class="devicon-jquery-plain-wordmark colored"></i>
       </p>
       <div class="four wide column">
@@ -296,7 +365,7 @@
   	<div>
       <br>
       <footer>
-        <div class="ui grid">
+        <div class="ui stackable grid">
 
         <div class="three wide column"></div>
         <div class="five wide column contact-base">
@@ -306,19 +375,20 @@
         <div class="six wide column">
 
       <div class="contact-info">
-        <a href="http://res.cloudinary.com/michelleerica/image/upload/v1502536348/michelle_resume.pdf" download="michelleericalo resume">Resume</a>
+        <a href="http://res.cloudinary.com/michelleerica/image/upload/v1502536348/michelle_resume.pdf" download="michelleericalo resume" class="contact">Resume</a>
 
 
-        <a href="https://github.com/michelleerica" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact"><i class="devicon-github-plain-wordmark"></i>
+        <a href="https://github.com/michelleerica" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact">Github</i>
 
       </a>
-        <a href="https://www.linkedin.com/in/michelleerica-lo/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact"><i class="fa fa-linkedin" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/michelleerica-lo/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact">Linkedin</i>
     </a>
     </div>
       </div>
       <!-- <div class="one wide column"></div> -->
 
-      </div>      </footer>
+      </div>
+    </footer>
 
   </div>
 

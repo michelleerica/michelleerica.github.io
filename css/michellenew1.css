@@ -22,9 +22,9 @@ background-color: pink;
   background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
 .section_three{
-  background: #C9FFBF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -40,8 +40,10 @@ background-color: pink;
 }
 
 #home-info, #funny{
-  font-family: 'Sacramento', cursive;
-  font-size: 40px;
+  font-family: 'League Script', cursive;
+  font-weight:bolder;
+
+  font-size: 30px;
   line-height: 30px;
 }
 
@@ -53,7 +55,7 @@ background-color: pink;
 .circular-sb {
   width: 600px;
   height: 350px;
-  border: 5px solid rgb(144, 38, 207);
+  border: 5px solid rgb(15, 29, 69);
   padding: 80px 0px;
   margin: 30px auto;
   border-radius: 50%;
@@ -63,11 +65,11 @@ background-color: pink;
   font-weight: 900;
   font-family: arial;
   position: relative;
-  color: rgb(144, 38, 207);
+  color: rgb(32, 143, 120);
 }
 
 .circle3 {
-  border: 5px solid rgb(144, 38, 207);
+  border: 5px solid rgb(15, 29, 69);
   position: absolute;
   width: 25px;
   padding: 20px;
@@ -88,7 +90,7 @@ background-color: pink;
 }
 
 .circle4 {
-  border: 5px solid rgb(144, 38, 207);
+  border: 5px solid rgb(15, 29, 69);
   position: absolute;
   width: 5px;
   padding: 10px 15px;
@@ -104,25 +106,30 @@ background-color: pink;
 
 #funny{
   display:none;
+  color: rgb(118, 55, 162);
+  font-size: 40px;
 }
 .screenshot{
   width: 100%
-
 }
 
 .bujoco-info, .fraga-info, .figgie-info, .tic-info{
   cursor: pointer;
 }
 
+.bujoco-info:hover, .fraga-info:hover, .figgie-info:hover, .tic-info:hover{
+  color: rgb(249, 48, 145) !important;
+}
+
 .contact-link{
   font-size: 25px;
   line-height: 30px;
-
 }
 
 .contact-info{
   text-align: left;
 }
+
 .contact{
   padding: 2em;
 }
@@ -161,4 +168,15 @@ h1, h2, h3{
   text-align: right;
   font-family: 'Comfortaa', cursive;
   /*font-size: 20px;*/
+}
+/*
+.bujoco-modal, .fraga-modal, .figgie-info, .tic-info {
+  background-color: rgba(255, 255, 255, 0.57) !important
+}*/
+
+a{
+  color:rgb(78, 71, 163) !important;
+}
+a:hover{
+  color: rgb(249, 48, 145) !important;
 }
