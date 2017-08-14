@@ -11,7 +11,7 @@
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-<script src="js//semantic.js"></script>
+<script src="js/semantic.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
 <link rel="stylesheet" media="screen" href="css/michellenew1.css">
@@ -20,51 +20,59 @@
 <script src="https://use.fontawesome.com/6ae92f5ae5.js"></script>
 
 
+<script>
+if (screen && screen.width > 768) {
+document.write('<script type="text/javascript" src="js/jquery.fullPage.js"><\/script>');
+}
+</script>
 
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script>$(document).ready(function() { $('#fullpage').fullpage(); });</script>
+
+<!-- <script type="text/javascript" src="js/jquery.fullPage.js"></script> -->
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 <body>
 
   <div id="fullpage">
-  	<div class="section section_one" id="main">
+  	<div class="section section_one fp-auto-height-responsive" id="main">
        <div class="ui stackable grid">
 
-        <div class="two wide column">
-        </div>
+        <div class="two wide column"></div>
         <!-- <div class="two wide column">
 
         </div> -->
 
-        <div class="twelve wide column about_short">
+        <div class="twelve wide column about_short fp-auto-height-responsive">
           <div class="circular-sb">
             <!-- <br> -->
             <div id="home-info">
-            Hi, my name is <a href="#about-me">Michelle Erica Lo</a>.
-            <br>
-            <br>
-            I'm a junior web developer.
-            <br>
-            <br>
-            I'm an <a href="#projects1">avid list maker</a>, <a href="#projects1">question asker</a> and <a href="#projects2">intermittent foodie</a>.
+              Hi, my name is <a href="#about-me">Michelle Erica Lo</a>.
+              <br>
+              <br>
+              I'm a junior web developer.
+              <br>
+              <br>
+              I'm an <a href="#projects1">avid list maker</a>, <a href="#projects1">question asker</a> and <a href="#projects2">intermittent foodie</a>.
             </div>
             <div id="funny">
-              <br>
-              <br>
-              And sometimes I'm funny.
+                <br>
+                <br>
+                And sometimes I'm funny.
             </div>
-        <div class="circle3"></div>
-        <div class="circle4"></div>
-</div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+        </div>
 
         </div>
+        <!-- <div class="one wide column"></div> -->
+
       </div>
       <div class="base">
         <a href="#about-me">  <i class="fa fa-hand-o-down" aria-hidden="true"></i></a>
       </div>
     </div>
-  	<div class="section section_two" id="about-me">
+  	<div class="section section_two fp-auto-height-responsive" id="about-me">
       <header>
         <a href="#main">Back to top</a>
       </header>
@@ -72,7 +80,7 @@
         <div class="one wide column"></div>
 
       <div class="four wide column">
-          <img id="headshot" src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
+          <img id="headshot" data-src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,w_306/v1502247625/michelleprofile_jwyozd.jpg" alt="Michelle">
 
       </div>
       <div class="one wide column" id="about-long"></div>
@@ -80,10 +88,10 @@
       <div class="eight wide column">
 
       <h1>About me</h1>
-      I’m a junior web developer with almost 6 years experience working at a top international accounting firm in risk management.
+      I’m a junior web developer with almost 6 years' experience working at a top international accounting firm in risk management.
       <br>
       <br>
-      During this time I learnt a lot of things. I learnt how to work in a team. I learnt how to work in a stressful environment to competing deadlines. I learnt how to manage my time and the time of other team members. But most importantly, I learnt that I love to learn and I what really want to do is to help other people.
+      During this time I learnt a lot of things: I learnt how to work in a team; I learnt how to work in stressful environments to competing deadlines; I learnt how to manage my time and the time of other team members. But most importantly, I learnt I love to learn and I what really want to do is to help other people.
       <br>
       <br>
       <div class="code"></div>
@@ -105,7 +113,7 @@
       <a href="#projects1">  <i class="fa fa-hand-o-down" aria-hidden="true"></i></a>
     </div>
   	</div>
-  	<div class="section section_three" id="projects1">
+  	<div class="section section_three fp-auto-height-responsive" id="projects1">
       <header>
         <a href="#main">Back to top</a>
       </header>
@@ -113,7 +121,7 @@
 
       <div class="three wide column"></div>
       <div class="four wide column">
-          <a href="https://bujoco.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/v1502535664/bujoco_cjm6bl.png" alt="bujoco" class="screenshot"></a>
+          <a href="https://bujoco.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img data-src="http://res.cloudinary.com/michelleerica/image/upload/v1502535664/bujoco_cjm6bl.png" alt="bujoco" class="screenshot"></a>
 
       </div>
       <div class="one wide column"></div>
@@ -122,7 +130,7 @@
       <h2>The Bullet Journal Collective</h2>
       <p>This Bullet Journal wireframing project, allows those new to bullet journalling to get inspired by other bullet journallers and wireframe their templates before committing it to paper. The purpose of the site is to use tech to take the frustration out of analog bullet journalling.</p>
       <br>
-      <p>With s<i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
+      <p>Made with <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
    <i class="devicon-javascript-plain"></i>
     <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-bootstrap-plain-wordmark"></i>
   </p>
@@ -156,7 +164,7 @@
 
 
 <div class="four wide column">
-    <a href="https://fraga-app.herokuapp.com" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/v1502328961/fraga_hnt7qa.png" alt="bujoco" class="screenshot"></a>
+    <a href="https://fraga-app.herokuapp.com" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img data-src="http://res.cloudinary.com/michelleerica/image/upload/v1502328961/fraga_hnt7qa.png" alt="bujoco" class="screenshot"></a>
 
 </div>
 <div class="one wide column"></div>
@@ -170,7 +178,7 @@
 Location-based Q&A web applications whereby users can ask other users location specific questions. Translation services available for non-English speaking users.
 </p>
 <br>
-<p>With<i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
+<p>Made with <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>
 <i class="devicon-javascript-plain"></i>
 <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-bootstrap-plain-wordmark"></i>
 </p>
@@ -215,7 +223,7 @@ Location-based Q&A web applications whereby users can ask other users location s
     </div>
   	</div>
 
-  	<div class="section section_four" id="projects2">
+  	<div class="section section_four fp-auto-height-responsive" id="projects2">
       <header>
         <a href="#main">Back to top</a>
       </header>
@@ -223,7 +231,7 @@ Location-based Q&A web applications whereby users can ask other users location s
 
       <div class="three wide column"></div>
       <div class="four wide column">
-          <a href="https://figgie.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,h_701,w_1374/v1502535976/figgie.png" alt="figgie" class="screenshot"></a>
+          <a href="https://figgie.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img data-src="http://res.cloudinary.com/michelleerica/image/upload/c_scale,h_701,w_1374/v1502535976/figgie.png" alt="figgie" class="screenshot"></a>
 
       </div>
       <div class="one wide column"></div>
@@ -232,9 +240,9 @@ Location-based Q&A web applications whereby users can ask other users location s
       <h2>Figgie</h2>
       <p>I like food. I also like instagram but my instagram is cluttered with too many ballerinas, calligraphers and travel photos to make it a useful food finding mechanism.
 
-  I wanted to make a pure food photo sharing app. One where users could post photos of their meals and sort on dishes, venues and cuisines for maximum flexibility </p>
+  I wanted to make a pure food photo sharing app - one where users could post photos of their meals and sort on dishes, venues and cuisines for maximum flexibility </p>
       <br>
-      <p>With <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
+      <p>Made with <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
     <i class="devicon-jquery-plain-wordmark colored"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-ruby-plain-wordmark"></i>
       </p>
       <p> Materialize CSS | cloudinary </p>
@@ -254,7 +262,7 @@ Location-based Q&A web applications whereby users can ask other users location s
                       <p>Build a web application in ruby on rails using at least 3 models and RESTful routes</p>
                       <h3>The idea</h3>
                     <p>I like food. I also like instagram but my instagram is cluttered with to many ballerinas, calligraphers and travel photos to make it a useful food finding mechanism.
-                  I wanted to make a pure food photo sharing app. One where users could post photos of their meals and sort on dishes, venues and cuisines for maximum flexibility </p>
+                  I wanted to make a pure food photo sharing app - one where users could post photos of their meals and sort on dishes, venues and cuisines for maximum flexibility </p>
                   <h3>Debrief</h3>
                   <p>
                     As my first full-stack app, I’m subjectively pleased with the results, but I know it’s not much to look at.
@@ -270,7 +278,7 @@ Location-based Q&A web applications whereby users can ask other users location s
       </div>
       <div class="three wide column"></div>
       <div class="four wide column">
-          <a href="https://michelleerica.github.io/tictactoe/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/v1502322760/Screen_Shot_2017-08-10_at_9.48.40_am_t6twme.png" alt="tic" class="screenshot"></a>
+          <a href="https://michelleerica.github.io/tictactoe/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img data-src="http://res.cloudinary.com/michelleerica/image/upload/v1502322760/Screen_Shot_2017-08-10_at_9.48.40_am_t6twme.png" alt="tic" class="screenshot"></a>
 
       </div>
       <div class="one wide column"></div>
@@ -278,7 +286,7 @@ Location-based Q&A web applications whereby users can ask other users location s
       <div class="six wide column">
       <h2>Tic Tac Toe</h2>
       <p>Play tic tac toe in two player mode or against Bill Murray, maybe the less effective AI player in the world...</p>
-      <p> With <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>  <i class="devicon-javascript-plain"></i>
+      <p>Made with <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain-wordmark"></i>  <i class="devicon-javascript-plain"></i>
     <i class="devicon-jquery-plain-wordmark colored"></i>
       </p>
       <div class="four wide column">

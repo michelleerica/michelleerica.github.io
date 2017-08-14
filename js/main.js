@@ -1,5 +1,28 @@
 $(document).ready(function() {
-	$('#fullpage').fullpage();
+	// $('#fullpage').fullpage();
+	// $('#fullpage').fullpage({
+	//      scrollOverflowOptions: {
+	//           click: true
+	//      }
+	// });
+	if (document.documentElement.clientWidth > 1023) {
+	    $('#fullpage').fullpage({
+	        // we need to enable scrolling on desktop version
+	        scrollOverflow: true
+	        // the rest setting can goes below here
+	    });
+	}
+	if (document.documentElement.clientWidth < 1024) {
+	    $('#fullpage').fullpage({
+	        // we need to disable scrolling not on desktop version
+	        scrollOverflow: false
+	        // the rest setting can goes below here
+	    });
+
+			// $('#about-long').css("font-size","12px");
+
+	}
+
 
 	// var quoteChange = function(){
 	// 	$('#home-info').css("display","none");
