@@ -38,13 +38,32 @@ $(document).ready(function() {
 	// 	$('#funny').css("display","block");
 	// }, 2000);
 
-	setInterval(function(){
-		$('#funny').css("display","none");
-		$('#home-info').css("display","block");
-	}, 2000, setInterval(function(){
-		$('#home-info').css("display","none");
-		$('#funny').css("display","block");
-	}, 6000));
+	// setInterval(function(){
+	// 	$('#funny').css("display","none");
+	// 	$('#home-info').css("display","block");
+	// }, 100
+// 	// ,
+// 	setInterval(function(){
+// 		$('#home-info').css("display","none");
+// 		$('#funny').css("display","block");
+// 	}, 1000, 	setInterval(function(){
+// 			$('#funny').css("display","none");
+// 			$('#home-info').css("display","block");
+// 		}, 1000))
+// // );
+
+setInterval(function(){
+			// Immediate
+			$('#funny').css("display","none");
+			$('#home-info').css("display","block");
+
+			// In 200 ms
+			setTimeout(function(){
+				$('#home-info').css("display","none");
+				$('#funny').css("display","block");
+			}, 2000);
+	}, 4000);
+
 
 
 	$('.bujoco-info').click(function(){
