@@ -11,20 +11,26 @@ body{
 
 }
 
+section{
+  min-height:100vh!important;
+  padding: 5%;
+}
+
+
 .section_one{
   /*background-color: lavenderBlush;*/
+  /*height:100vh;*/
 }
 .section_two{
 background-color: pink;
 }
-.section_four{
-  background: #43C6AC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
 .section_three{
   background: #E8CBC0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+
 
 }
 
@@ -136,11 +142,11 @@ background-color: pink;
 }
 
 footer {
-  position: absolute;
+  /*position:inherit;*/
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  /*padding: 1rem;*/
   background-color: rgba(151, 149, 249, 0.7);
   text-align: left;
   color: rgb(144, 38, 207);
@@ -149,7 +155,7 @@ footer {
 }
 
 header{
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   padding: 1rem;
@@ -165,7 +171,7 @@ h1, h2, h3{
 .base{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 8%;
   left: 0;
   padding: 1rem;
   /*background-color: rgba(48, 47, 92, 0.88);*/
@@ -175,7 +181,7 @@ h1, h2, h3{
 }
 
 .contact-base{
-  text-align: right;
+  text-align: center;
   font-family: 'Comfortaa', cursive;
   /*font-size: 20px;*/
 }

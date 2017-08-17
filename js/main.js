@@ -5,23 +5,23 @@ $(document).ready(function() {
 	//           click: true
 	//      }
 	// });
-	if (document.documentElement.clientWidth > 1023) {
-	    $('#fullpage').fullpage({
-	        // we need to enable scrolling on desktop version
-	        scrollOverflow: true
-	        // the rest setting can goes below here
-	    });
-	}
-	if (document.documentElement.clientWidth < 1024) {
-	    // $('#fullpage').fullpage({
-	        // we need to disable scrolling not on desktop version
-	        scrollOverflow: false
-	        // the rest setting can goes below here
-	    // });
-
-			// $('#about-long').css("font-size","12px");
-
-	}
+	// if (document.documentElement.clientWidth > 1023) {
+	//     $('#fullpage').fullpage({
+	//         // we need to enable scrolling on desktop version
+	//         scrollOverflow: true
+	//         // the rest setting can goes below here
+	//     });
+	// }
+	// if (document.documentElement.clientWidth < 1024) {
+	//     // $('#fullpage').fullpage({
+	//         // we need to disable scrolling not on desktop version
+	//         scrollOverflow: false
+	//         // the rest setting can goes below here
+	//     // });
+	//
+	// 		// $('#about-long').css("font-size","12px");
+	//
+	// }
 
 
 	// var quoteChange = function(){
@@ -57,7 +57,7 @@ setInterval(function(){
 			$('#funny').css("display","none");
 			$('#home-info').css("display","block");
 
-			// In 200 ms
+			// In 2000 ms
 			setTimeout(function(){
 				$('#home-info').css("display","none");
 				$('#funny').css("display","block");
