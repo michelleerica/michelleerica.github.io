@@ -17,10 +17,6 @@ section{
 }
 
 
-.section_one{
-  /*background-color: lavenderBlush;*/
-  /*height:100vh;*/
-}
 .section_two{
 background-color: pink;
 }
@@ -30,7 +26,6 @@ background-color: pink;
   background: -webkit-linear-gradient(to left, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
-
 
 }
 
@@ -48,16 +43,17 @@ background-color: pink;
 #home-info, #funny, .header{
   font-family: 'League Script', cursive;
   font-weight:bolder;
-
-  font-size: 30px;
+  font-size: 40px;
   line-height: 30px;
+  top: 50% !important;
+  text-align: center;
 }
 
 *{
   margin:0px;
   padding:0px;
 }
-
+/*
 .circular-sb {
   width: 600px;
   height: 350px;
@@ -93,7 +89,7 @@ background-color: pink;
   right: 0px;
   bottom: 0px;
   /*background: #fff;*/
-}
+/*}
 
 .circle4 {
   border: 5px solid rgb(15, 29, 69);
@@ -103,7 +99,7 @@ background-color: pink;
   border-radius: 50%;
   left: -60px;
   bottom: 5px;
-}
+}*/
 
 #about-me{
   font-size: 20px;
@@ -171,7 +167,7 @@ h1, h2, h3{
 .base{
   position: absolute;
   right: 0;
-  bottom: 8%;
+  bottom: 0;
   left: 0;
   padding: 1rem;
   /*background-color: rgba(48, 47, 92, 0.88);*/
