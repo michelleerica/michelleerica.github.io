@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Pacifico|Comfortaa|Clicker+Script|League+Script|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Pacifico|Comfortaa|Clicker+Script|Amatic+SC|Sacramento');
 
 
 body{
@@ -41,7 +41,7 @@ background-color: pink;
 }
 
 #home-info, #funny, .header{
-  font-family: 'League Script', cursive;
+  font-family: 'Amatic SC', cursive;
   font-weight:bolder;
   font-size: 40px;
   line-height: 30px;
@@ -108,7 +108,7 @@ background-color: pink;
 
 #funny{
   display: none;
-  color: rgb(118, 55, 162);
+  /*color: rgb(118, 55, 162);*/
   font-size: 40px;
 }
 
@@ -140,12 +140,12 @@ background-color: pink;
 footer {
   /*position:inherit;*/
   right: 0;
-  bottom: 0;
+  bottom: -20;
   left: 0;
   /*padding: 1rem;*/
-  background-color: rgba(151, 149, 249, 0.7);
+  background-color: rgba(46, 42, 116, 0.5) ;
   text-align: left;
-  color: rgb(144, 38, 207);
+  /*color: rgb(144, 38, 207);*/
   font-family: 'Comfortaa', cursive;
 
 }
@@ -160,7 +160,7 @@ header{
 }
 
 h1, h2, h3{
-  font-family: 'League Script', cursive;
+  font-family: 'Amatic SC', cursive;
   font-weight:bolder;
 }
 
@@ -187,7 +187,7 @@ h1, h2, h3{
 }*/
 
 a{
-  color:rgb(78, 71, 163) !important;
+  color:rgb(53, 48, 107) !important;
 }
 
 a:hover{
