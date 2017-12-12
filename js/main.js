@@ -51,18 +51,18 @@ $(document).ready(function() {
 // 			$('#home-info').css("display","block");
 // 		}, 1000))
 // // );
-
-setInterval(function(){
-			// Immediate
-			$('#funny').css("display","none");
-			$('#home-info').css("display","block");
-
-			// In 2000 ms
-			setTimeout(function(){
-				$('#home-info').css("display","none");
-				$('#funny').css("display","block");
-			}, 2000);
-	}, 4000);
+//
+// setInterval(function(){
+// 			// Immediate
+// 			$('#funny').css("display","none");
+// 			$('#home-info').css("display","block");
+//
+// 			// In 2000 ms
+// 			setTimeout(function(){
+// 				$('#home-info').css("display","none");
+// 				$('#funny').css("display","block");
+// 			}, 2000);
+// 	}, 4000);
 
 
 
@@ -95,4 +95,5 @@ setInterval(function(){
   closable: true
   });
 
+	
 });
