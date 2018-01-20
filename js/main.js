@@ -28,7 +28,7 @@ $(document).ready(function() {
 		.break()
 		.break().pause(1000)
 		// .options({speed: 500})
-		.type('I\'m an <a href="#projects1" span class="underline--magical">avid list maker</a></span>, <a href="#projects1" span class="underline--magical">question asker</a></span> and <a href="#projects2" span class="underline--magical">intermittent foodie</a> </span>')
+		.type('I\'m an <a href="#project-div" span class="underline--magical">avid list maker</a></span>, <a href="#project-div" span class="underline--magical">question asker</a></span> and <a href="#project-div" span class="underline--magical">intermittent foodie</a> </span>')
 		.break() .pause(1000)
 		// .options({speed: 700})
 		.type('and my projects reflect that.')

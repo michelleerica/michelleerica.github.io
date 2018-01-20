@@ -5,14 +5,18 @@
 body{
 
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-
+  font-size: 20px;
 }
+
+
 
 .menu{
   position: absolute;
-  z-index: 1
+  z-index: 1;
+  right: 0px;
 }
+
+
 section{
   min-height: 95vh;
 }
@@ -23,6 +27,7 @@ section{
   font-size: 40px;
   line-height: 40px;
   color: #3F3C52;
+  margin-left: 5%
 }
 
 
@@ -52,9 +57,16 @@ section{
   line-height: 22px;
 }
 
+#projects-info{
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 5%
+}
+
 .projects{
   max-width: 95vw;
-  margin-left: 2% !important
+  margin-left: 2% !important;
+  /*margin-top: 20px;*/
 }
 
 .screenshot{
@@ -63,10 +75,6 @@ section{
 
 .bujoco-info, .fraga-info, .figgie-info, .tic-info{
   cursor: pointer;
-}
-
-.bujoco-info:hover, .fraga-info:hover, .figgie-info:hover, .tic-info:hover{
-  color: rgb(249, 48, 145) !important;
 }
 
 .contact-link{
@@ -83,16 +91,7 @@ section{
 }
 
 footer {
-  /*position:inherit;*/
-  right: 0;
-  /*bottom: -50%;*/
-  left: 0;
-  /*padding: 1rem;*/
-  /*background-color: rgba(46, 42, 116, 0.5) ;*/
-  text-align: left;
-  /*color: rgb(144, 38, 207);*/
-  font-family: 'Comfortaa', cursive;
-
+  bottom:0
 }
 
 header{
