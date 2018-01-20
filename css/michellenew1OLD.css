@@ -1,33 +1,44 @@
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Inconsolata|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Pacifico|Comfortaa|Clicker+Script|Amatic+SC|Sacramento');
 
 
 body{
-
-  font-family: 'Open Sans', sans-serif;
+  background: ivory;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */*/
+  /*background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */*/
+  font-family: 'Comfortaa', cursive;
   font-size: 15px;
 
 }
 
-.menu{
-  position: absolute;
-  z-index: 1
-}
 section{
+  min-height:100vh;
+  padding: 5%;
+}
+
+
+.section_two{
+background-color: pink;
+}
+
+.section_three{
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+
+}
+
+.section_four{
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, mistyrose, blanchedalmond); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 95vh;
+
 }
 
-
-#typeit{
-  font-family: 'Inconsolata', monospace;
-  font-size: 40px;
-  line-height: 40px;
-  color: #3F3C52;
-}
-
-
-.headshot{
-  /*margin-top: 100px;*/
+#headshot{
+  margin-top: 100px;
   width: 100%;
   /*width: 200px;*/
   text-align: right;
@@ -37,24 +48,34 @@ section{
   position:relative;
 }
 
+#home-info, #funny, .header{
+  font-family: 'Amatic SC', cursive;
+  font-weight:bolder;
+  font-size: 40px;
+  line-height: 30px;
+  top: 70% !important;
+  text-align: center;
+}
+
+.container{
+  align-items: center
+
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
 
 #about-me{
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
 }
 
-#contact-info{
-  margin-top: 20%
-}
-
-#coding-and-me{
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.projects{
-  max-width: 95vw;
-  margin-left: 2% !important
+#funny{
+  display: none;
+  /*color: rgb(118, 55, 162);*/
+  font-size: 40px;
 }
 
 .screenshot{
@@ -104,15 +125,9 @@ header{
   color: rgba(5, 13, 18, 0.69)
 }
 
-h1, h2, h3, .header{
+h1, h2, h3{
   font-family: 'Amatic SC', cursive;
   font-weight:bolder;
-}
-
-
-
-h1{
-  font-size: 40px;
 }
 
 .base{
@@ -146,7 +161,8 @@ a:hover{
 }
 
 /*================================================
-underline-magic==================================================*/
+Start Important Part
+==================================================*/
 
 .underline--magical {
   background-image: linear-gradient(120deg, #e90000 0%, #e90000 100%);
