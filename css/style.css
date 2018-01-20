@@ -9,7 +9,6 @@ body{
 }
 
 
-
 .menu{
   position: absolute;
   z-index: 1;
@@ -58,15 +57,19 @@ section{
 }
 
 #projects-info{
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
   margin-bottom: 5%
 }
+
+
 
 .projects{
   max-width: 95vw;
   margin-left: 2% !important;
   /*margin-top: 20px;*/
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .screenshot{
