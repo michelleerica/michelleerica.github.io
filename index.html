@@ -25,7 +25,7 @@
 </head>
 <body>
   <!-- nav bar  -->
-    <nav>
+    <!-- <nav> -->
      <!-- <div class="ui menu">
       <a class="item" href="#page1">Home</a>
       <a class="item" href="#page2">About me</a>
@@ -33,6 +33,15 @@
       <a class="item" href="#page4">Projects</a>
     </div> -->
       <div class="ui right menu ">
+        <!-- <a href="#about-me" class="item">
+          About me
+        </a>
+        <a href="#coding-and-me" class="item">
+          Coding & me
+        </a>
+        <a href="#project-div" class="item">
+          Projects
+        </a> -->
         <a class="item" href="https://www.linkedin.com/in/michelleerica-lo/" target="_blank">
             <i class="fa fa-linkedin navbar-item" aria-hidden="true"></i>
         </a>
@@ -41,12 +50,27 @@
         </a>
         <a class="item" href="https://drive.google.com/open?id=19LIF1TiTr79i6lYROeVm4p1BEs9tosFE" >Resume</a>
     </div>
-  </nav>
+
+  <!-- </nav> -->
+
+  <!-- <div class="ui compact vertical labeled icon menu nav">
+  <a class="item">
+    About me
+  </a>
+  <a class="item">
+    Coding & me
+  </a>
+  <a class="item">
+    Projects
+  </a>
+</div> -->
 
   <div id="fullpage">
     <!--page1 -->
     <div data-anchor="page1" class="section">
-      <div id="typeit"></div>
+      <div id="typeit">
+        <div id="home"></div>
+      </div>
     </div>
     <!--page2-->
 
@@ -60,7 +84,7 @@
         <div class="one wide column">
         </div>
         <div class="six wide column" id="about-me">
-          <h1>//about me</h1>
+          <h1>// about me //</h1>
           I’m a junior web developer with almost 6 years' experience working at a top international accounting firm in risk management.
           <br>
           <br>
@@ -73,16 +97,35 @@
           </ul>
           But most importantly, I learnt I love to learn and I what really want to do is to help other people.
           <br>
+          <br>
+          <div id="skills">
+          <h1>// skills //</h1>
+
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-css3-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-jquery-plain-wordmark"></i>
+            <i class="devicon-ruby-plain-wordmark"></i>
+            <i class="devicon-rails-plain-wordmark"></i>
+          </div>
+          <br>
 
           <div id="contact-info">
+            <h1>// contact //</h1>
             <a href="https://drive.google.com/open?id=19LIF1TiTr79i6lYROeVm4p1BEs9tosFE" download="michelleericalo resume" class="contact" span class="underline--magical">Resume</a></span>
+
             <a href="https://github.com/michelleerica" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact"  span class="underline--magical"><i class="devicon-github-plain-wordmark colored"></i>
           </a></span>
+
             <a href="https://www.linkedin.com/in/michelleerica-lo/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="contact" span class="underline--magical"><i class="fa fa-linkedin" aria-hidden="true"></i>
-      </a></span>
-      </div>
+            </a></span>
+
+          </div>
         </div> <!-- ten wide column   -->
+
       </div> <!--ui grid  -->
+
+      <i class="fa fa-hand-o-down down right" aria-hidden="true"></i>
 
     </div> <!--page2 div  -->
 
@@ -93,7 +136,7 @@
         <div class="one wide column">
         </div>
         <div class="six wide column" id="coding-and-me">
-          <h1>//coding and me</h1>
+          <h1>// coding and me //</h1>
 
           I was curious about coding and wanted to be able to do it first hand, so during a one year sabbatical, I enrolled in General Assembly's Web Development Immersive. I discovered what was missing from my life: a community of support and inclusiveness, full of out of the box thinkers who want to know <italics> more </italics>.
           <br>
@@ -110,26 +153,53 @@
         </div> <!-- six wide column   -->
 
       </div> <!--ui grid  -->
+      <i class="fa fa-hand-o-down down right" aria-hidden="true"></i>
 
     </div> <!--page3 div  -->
+    <!--page4 -->
 
-    <!--page3 -->
+    <!-- <div data-anchor='page4' class='section'>
+      <div class="ui relaxed grid">
+        <div class="two wide column">
+        </div> -->
+        <!-- <div class="eight wide column" id="skills">
+          <h1>// skills //</h1>
 
-    <div data-anchor='page4' class='section' id='project-div'>
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-css3-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-jquery-plain-wordmark"></i>
+            <i class="devicon-ruby-plain-wordmark"></i>
+            <i class="devicon-rails-plain-wordmark"></i>
+            <i class="devicon-backbonejs-plain-wordmark"></i>
+
+        </div>
+        <div class="one wide column">
+        </div>
+        <div class="five wide column">
+          <!-- <img class="headshot" src="image/laptop.JPG" alt="Michelle"> -->
+        <!-- </div> <!-- six wide column   -->
+
+      <!-- </div> <!--ui grid  -->
+
+    <!-- </div> <!--page4 div  -->
+
+    <!--page5 -->
+
+    <div data-anchor='page5' class='section' id='project-div'>
 
 
       <div class="ui grid">
         <div class="one wide column">
         </div>
         <div class="ten wide column" id="projects-info">
-          <h1>// projects</h1>
+          <h1>// projects //</h1>
           <br>
           I completed these projects as part of General Assembly's Web Development Immersive. Each project was completed over the course of a week and have largely been left untouched to provide a snapshot into my growth and development over the course of the 12 week bootcamp
         </div>
       </div>
       <div class="ui four column grid projects">
         <div class="column">
-
           <div class="ui segment">
             <a href="https://bujoco.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="http://res.cloudinary.com/michelleerica/image/upload/v1502535664/bujoco_cjm6bl.png" alt="bujoco" class="screenshot"></a>
           </div>
@@ -257,7 +327,7 @@
         </div>
       </div>
 
-    </div> <!--page4 div  -->
+    </div> <!--page5 div  -->
 
   </div> <!--fullpage div  -->
 

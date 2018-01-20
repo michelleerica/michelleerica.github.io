@@ -15,6 +15,9 @@ body{
   right: 0px;
 }
 
+.nav{
+  top: 45%;
+}
 
 section{
   min-height: 95vh;
@@ -26,14 +29,19 @@ section{
   font-size: 40px;
   line-height: 40px;
   color: #3F3C52;
-  margin-left: 5%
+  margin-left: 5%;
+  height: 50%;
 }
 
+#home{
+  height: 100vh;
+  background: none;
+  background-color: #fbd2d7
+}
 
 .headshot{
   /*margin-top: 100px;*/
-  width: 100%;
-  /*width: 200px;*/
+  width: 80%;
   text-align: right;
   border-radius: 5em 4em 8em 14em / 2em 20em 8em 10em;
     -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
@@ -48,12 +56,18 @@ section{
 }
 
 #contact-info{
-  margin-top: 20%
+  margin-top: 2%
 }
 
 #coding-and-me{
   font-size: 18px;
   line-height: 22px;
+}
+
+#skills{
+  font-size: 60px;
+  /*letter-spacing: 100%;*/
+  margin-top: 2%
 }
 
 #projects-info{
@@ -62,12 +76,18 @@ section{
   margin-bottom: 5%
 }
 
-
+.down{
+  /*top: 100% !important;*/
+  font-size: 50px;
+  position: absolute;
+  right: 3%;
+  bottom: 5%
+}
 
 .projects{
-  max-width: 95vw;
-  margin-left: 2% !important;
-  /*margin-top: 20px;*/
+  max-width: 90vw;
+  margin-left: 5% !important;
+  margin-top: -10px !important;
   font-size: 15px;
   line-height: 20px;
 }
@@ -80,31 +100,20 @@ section{
   cursor: pointer;
 }
 
-.contact-link{
+/*.contact-link{
   font-size: 25px;
   line-height: 30px;
 }
 
 .contact-info{
   text-align: left;
-}
+}*/
 
 .contact{
-  padding: 2em;
+  padding-right: 2em;
 }
 
-footer {
-  bottom:0
-}
 
-header{
-  position: fixed;
-  right: 0;
-  top: 0;
-  padding: 1rem;
-  font-size: 20px;
-  color: rgba(5, 13, 18, 0.69)
-}
 
 h1, h2, h3, .header{
   font-family: 'Amatic SC', cursive;
@@ -116,28 +125,6 @@ h1, h2, h3, .header{
 h1{
   font-size: 40px;
 }
-
-.base{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  /*background-color: rgba(48, 47, 92, 0.88);*/
-  text-align: right !important;
-  color: navy;
-  font-size: 40px;
-}
-
-.contact-base{
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-  /*font-size: 20px;*/
-}
-/*
-.bujoco-modal, .fraga-modal, .figgie-info, .tic-info {
-  background-color: rgba(255, 255, 255, 0.57) !important
-}*/
 
 a{
   color:rgb(53, 48, 107) !important;

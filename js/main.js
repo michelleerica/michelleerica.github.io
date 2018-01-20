@@ -1,8 +1,10 @@
 $(document).ready(function() {
 
 	$('#fullpage').fullpage({
-    sectionsColor: ['#fbd2d7', '#9ABCA7', '#AF9FA5', '#C0B9DD']
+    sectionsColor: ['#fbd2d7', '#9ABCA7', '#AF9FA5', '#C0B9DD', '#b8cfdd']
   });
+
+	// $( "div" ).remove( "#home" );
 
 	new TypeIt('#typeit', {
      speed: 50,
@@ -11,7 +13,7 @@ $(document).ready(function() {
 		.type('Hey')
 		.pause(500)
 		.delete(1)
-		.type('llo, ')
+		.type('Hello, ')
 		.pause(1000)
 		.type("my name is Michelle Erica Lo")
 		.break()
