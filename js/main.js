@@ -1,8 +1,40 @@
 $(document).ready(function() {
 
-	$('#fullpage').fullpage({
-    sectionsColor: ['#fbd2d7', '#9ABCA7', '#AF9FA5', '#C0B9DD', '#b8cfdd']
-  });
+
+
+if (document.documentElement.clientWidth > 712) {
+    $('#fullpage').fullpage({
+        // we need to disable scrolling not on desktop version
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				sectionsColor: ['#fbd2d7', '#9ABCA7', '#AF9FA5', '#C0B9DD', '#b8cfdd']
+    })
+	}
+	else{
+		$('#typeit')
+			.css('min-height', '100vh')
+			.css('font-size', '20px');
+
+		$('.menu').remove()
+		}
+
+
+
+
+  //
+	// $('#fullpage').fullpage({
+	// 	anchors: ['firstPage', 'secondPage', '3rdPage'],
+  //   sectionsColor: ['#fbd2d7', '#9ABCA7', '#AF9FA5', '#C0B9DD', '#b8cfdd'],
+  //
+  //  scrollOverflowOptions: {
+  //       click: true
+	// 		}
+  // });
+  //
+	// if ($('#fullpage').width() < 1024) { // check the width (or window.width() or other method)
+	// scrolloverflowed = false;
+	// } else {
+	// scrolloverflowed = true;
+	// }
 
 	// $( "div" ).remove( "#home" );
 
