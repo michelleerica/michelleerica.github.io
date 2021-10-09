@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Inconsolata|Open+Sans');
 
-
 body{
 
   font-family: 'Open Sans', sans-serif;
@@ -9,21 +8,11 @@ body{
   background-color: #fbd2d7;
 }
 
-
 .menu{
   position: absolute;
   z-index: 1;
   right: 0px;
 }
-
-.nav{
-  top: 45%;
-}
-
-section{
-  min-height: 95vh;
-}
-
 
 #typeit{
   font-family: 'Inconsolata', monospace;
@@ -34,120 +23,7 @@ section{
   height: 50%;
 }
 
-#home{
-  height: 100vh;
-  background: none;
-  background-color: #fbd2d7
-}
-
-.headshot{
-  /*margin-top: 100px;*/
-  width: 80%;
-  text-align: right;
-  border-radius: 5em 4em 8em 14em / 2em 20em 8em 10em;
-    -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
-    -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
-  position:relative;
-}
-
-
-#about-me{
-  font-size: 25px;
-  line-height: 30px;
-}
-
-#contact-info{
-  margin-top: 2%
-}
-
-#coding-and-me{
-  font-size: 18px;
-  line-height: 22px;
-}
-
-#skills{
-  font-size: 60px;
-  /*letter-spacing: 100%;*/
-  margin-top: 2%
-}
-
-#projects-info{
-  font-size: 20px;
-  line-height: 25px;
-  margin-bottom: 5%
-}
-
-.down{
-  /*top: 100% !important;*/
-  font-size: 50px;
-  position: absolute;
-  right: 3%;
-  bottom: 5%
-}
-
-.projects{
-  max-width: 90vw;
-  margin-left: 5% !important;
-  margin-top: -10px !important;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.screenshot{
-  width: 100%
-}
-
-.bujoco-info, .fraga-info, .figgie-info, .tic-info{
-  cursor: pointer;
-}
-
-/*.contact-link{
-  font-size: 25px;
-  line-height: 30px;
-}
-
-.contact-info{
-  text-align: left;
-}*/
-
-.contact{
-  padding-right: 2em;
-}
-
-
-
-h1, h2, h3, .header{
-  font-family: 'Amatic SC', cursive;
-  font-weight:bolder;
-}
-
-
-
-h1{
-  font-size: 40px;
-}
-
 a{
   color:rgb(53, 48, 107) !important;
-}
-
-a:hover{
-  /*color: rgb(249, 48, 145) !important;*/
-}
-
-/*================================================
-underline-magic==================================================*/
-
-.underline--magical {
-  background-image: linear-gradient(120deg, #e90000 0%, #e90000 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-}
-
-.underline--magical:hover{
-  background-size: 100% 1em;
-
-
+  padding: 5px;
 }
